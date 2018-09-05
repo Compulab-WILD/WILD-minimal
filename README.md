@@ -19,22 +19,22 @@ repeat: runs a simple state machine: permission_is_granted --(do scan)--> wifi_s
 range: build a 'ranging request' and send. onRangingResults will be called asynchronously when results are ready. 
 onRangingResults: Display the ranging results in a table (MAC address, measured range, standard deviation, signal strength)
 
-Installation instructions (may be helpful if you never installed an APK before. If you did - you can skip :)
+APK installation instructions (may be helpful if you never installed an APK before. If you did - you can skip :)
 ------------------------------------------------------------------------------------------------------------
 
     - Go to https://github.com/Compulab-WILD/WILD-minimal
     - Download everything
     - Look at the APK directory for the APK file
 
-    - Enable "developer mode" on the Pixel https://www.verizonwireless.com/support/knowledge-base-215055/
+    - Enable "developer mode" on the phone https://www.verizonwireless.com/support/knowledge-base-215055/
     - Download and install ADB (found in SDK manager) https://developer.android.com/studio/command-line/adb
     - Find where ADB is installed. In my case C:\android-sdk-tools\platform-tools
     - Copy wild-minimal.apk to the directory where ADB is
 
-    - Connect the Pixel with USB cable to your host
-    - Identify the ID of your phone by
+    - Connect the phone with USB cable to your host
+    - Identify the ID of the phone by
     > adb devices
     - Type command (assuming your phone ID is 01234567890ABCDEF)
     > adb -s 01234567890ABCDEF install wild-minimal.apk
-    - Now you should have "WILD minimal" app on your Pixel 2
+    - Now you should have "WILD minimal" app on the phone
 
