@@ -34,7 +34,7 @@ Installation instructions (may be helpful if you never installed an APK before. 
     - Connect the Pixel with USB cable to your host
     - Identify the ID of your phone by
     > adb devices
-    Type command (assuming your phone ID is 01234567890ABCDEF)
+    - Type command (assuming your phone ID is 01234567890ABCDEF)
     > adb -s 01234567890ABCDEF install wild-minimal.apk
-    Now you should have "WILD minimal" app on your Pixel 2
+    - Now you should have "WILD minimal" app on your Pixel 2
 
