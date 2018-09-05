@@ -1,10 +1,10 @@
-WILD Minimal - WiFi RTT proof-of-concept for Android 9 Pie
- <b>Revision: 0.1 24-Aug-2018</b>
- Designed for ranging to Compulab WILD FTM Responders and tested with Google Pixel
- "WILD" stands for WiFi Indoor Location Device
- (C) Compulab 2018 https://www.fit-iot.com
- Written by Irad Stavi irad@compulab.co.il
- Special thanks to Prof. Berthold K.P. Horn of MIT CSAIL http://people.csail.mit.edu/bkph/ for his insightful advice
+WILD Minimal - WiFi RTT proof-of-concept for Android 9 Pie<br/>
+Revision: 0.1 24-Aug-2018<br/>
+Designed for ranging to Compulab WILD FTM Responders and tested with Google Pixel<br/>
+"WILD" stands for WiFi Indoor Location Device<br/>
+(C) Compulab 2018 https://www.fit-iot.com
+Written by Irad Stavi irad@compulab.co.il
+Special thanks to Prof. Berthold K.P. Horn of MIT CSAIL http://people.csail.mit.edu/bkph/ for his insightful advice
 
 What the program does:
 1. Get permissions
