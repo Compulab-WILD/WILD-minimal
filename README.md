@@ -22,7 +22,7 @@ onRangingResults: Display the ranging results in a table (MAC address, measured 
 Installation instructions (may be helpful if you never installed an APK before. If you did - you can skip :)
 ------------------------------------------------------------------------------------------------------------
 
-    -Go to https://github.com/Compulab-WILD/WILD-minimal
+    - Go to https://github.com/Compulab-WILD/WILD-minimal
     - Download everything
     - Look at the APK directory for the APK file
 
