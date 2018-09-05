@@ -13,7 +13,7 @@ What the program does:<br/>
 <br/>
 The program is written to be as simple as possible - a self contained activity with nearly sequential execution.<br/>
 Below is the flow in a nutshell:<br/>
-onCreate: Requests permissions and starts 'repeat' which is called every 2 seconds.<br/>
+    onCreate: Requests permissions and starts 'repeat' which is called every 2 seconds.<br/>
 repeat: runs a simple state machine: permission_is_granted --(do scan)--> wifi_scan_is_requested --(scan-results received)--> wifi_scan_is_done.<br/>
 then repeat starts calling range() every 2 seconds.<br/>
 range: build a 'ranging request' and send. onRangingResults will be called asynchronously when results are ready.<br/>
